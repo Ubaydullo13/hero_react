@@ -3,7 +3,7 @@ import arrow from "../../assets/images/arrow.svg"
 
 const Start = styled.div`
     background-color:#F23F87 ;
-    width: 50%;
+    width: 53.2%;
     height: 20vh;
     display: flex;
     align-items: center;
