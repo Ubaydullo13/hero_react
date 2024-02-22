@@ -1,7 +1,7 @@
-// import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import styled, {createGlobalStyle} from 'styled-components'
+import {createGlobalStyle} from 'styled-components'
+import Footer from './components/Footer/Footer.jsx'
 
 const Global = createGlobalStyle`
     *{
@@ -16,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <>
         <Global />
         <App />
+        <Footer />
     </>
 )
